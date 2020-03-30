@@ -1,0 +1,113 @@
+html, body {
+    font-family: "Baloo 2";
+}
+
+/* .title {
+    font-size: .8cm;
+    padding-left: 3vh; 
+    box-sizing: border-box;
+    height: 100px;
+    padding-top: 33px;
+    color: rgb(75, 75, 75, .75);
+} */
+
+h2 {
+    padding-top: 26.457px;
+}
+
+/*  h3 {
+    border: 2px solid black;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+}*/
+
+h1, h2, h3 {
+    font-size: 1.4cm;
+    color: rgb(63, 63, 63);
+    margin: 0;
+    text-align: center;
+}
+
+.skill-block {
+    width: 50%;
+    margin: 0em;
+    display: inline-block;
+}
+
+.link-block {
+    width: 50%;
+    margin: 0em;
+    float: right;
+    display: inline-block;
+}
+
+.links {
+    display: block;
+}
+
+.name {
+    width: auto;
+}
+
+ul {
+    text-align: center;
+    padding-left: 0;
+    font-size: .7cm;
+    margin: 0;
+    list-style-type: none;
+    color: #000000;
+    margin-top: 26.457px;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+
+.back-img {
+    background-image: url(dog-lake.jpg);
+    background-size: cover;
+    /* min-height: calc(100vh - 100px); */
+    min-height: 100vh;
+}
+
+.trans-back {
+    background-color: rgba(255,255,255,.5);
+    display: block;
+    position: absolute;
+    width: 40vw;
+    transform: translate(-50%, -40vh);
+    top: 50%;
+    left: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: .7cm;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    padding-top: 0px;
+    color: #000000;
+
+    /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    margin: 0em;
+}
+
+h4 {
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+li {
+    padding-top: 2.5px;
+}

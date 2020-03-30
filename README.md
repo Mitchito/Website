@@ -1,6 +1,6 @@
 # Website
 
 
-https://test.d14obhjgekk730.amplifyapp.com/
+https://master.d30zbhbb85gjxg.amplifyapp.com/
 
 Temporary until I take the next step to get my own domain.

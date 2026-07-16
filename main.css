@@ -1,11 +1,15 @@
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    src: url(.\Fonts\Times New Roman);
+}
+
 html, body {
-    font-family: "Baloo 2";
-    background-image: url(dog-lake.jpg);
+    background-image: url(Alta.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
+    background-position: auto;
+    height: auto;
+    width: auto;
 }
 
 /* .back-img {
@@ -18,7 +22,7 @@ html, body {
 } */
 
 h1, h2, h3 {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     color: rgb(0, 0, 0);
     margin: auto;
     text-align: center;
@@ -40,22 +44,21 @@ h1, h2, h3 {
 
 ul {
     text-align: center;
-    font-size: 1.35vw;
-    line-height: 1.4;
+    font-size: 1.1vw;
+    line-height: 1;
     padding: 0;
     margin: auto;
     list-style-type: none;
     color: #000000;
     margin-top: 26.457px;
-    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
 }
 
 .trans-back {
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(193, 193, 193, 0.815);
     display: block;
     position: absolute;
-    padding: 40px;
-    width: 40vw;
+    padding: 30px;
+    width: 30vw;
     transform: translate(-50%, -40vh);
     top: 50%;
     left: 50%;
@@ -69,15 +72,13 @@ a {
 p {
     display: flex;
     justify-content: center;
-    font-size: 1.35vw;
+    font-size: 1.1vw;
     text-align: center;
-    line-height: 1.4;
+    line-height: 1;
     margin: 0;
     padding-bottom: 25px;
     padding-top: 25px;
     color: #000000;
-
-    /* text-shadow: -.25px -.25px 0 #000, .25px -.25px 0 #000, -.25px .25px 0 #000, .25px .25px 0 #000;  */
 }
 
 .skills {
